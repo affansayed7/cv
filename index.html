@@ -1,88 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
 
 <head>
   <meta charset="utf-8">
-  <!-- meta tag helps the editor to identify that the code is being written with utf8 character set  -->
-  <title>Affan's Personal site</title>
+  <title>Affan Sayed</title>
   <link rel="stylesheet" href="css/styles.css">
-  <!-- this is where the stylesheet of this website resides -->
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&family=Ubuntu&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing="20">
-    <tr>
-      <td> <img src="images/profile.jpg" alt="Affan's Profile picture" style="width:200px;"> </td>
-      <!-- alt is displayed when the image is unable to render -->
-      <td>
-        <h1> Affan Sayed</h1>
-        <p> 2nd year Compter Science Engineer </p>
-        <p> <em>Student at <strong><a href="https://admissions.mitwpu.edu.in/?utm_source=Getmyuni&utm_medium=EM01&utm_campaign=MITWPU22">MIT WPU.</a>
-            </strong></em> </p>
-        <p> I am an aspiring Machine Learning engineer and i love to play games and watch movies </p>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <h3> <strong>Books</strong> </h3>
-  <ul>
-    <li> Artificial Intelligence and Embeded Systems </li>
-    <li> Database Management Systems </li>
-    <li> Big Data Technologies </li>
-  </ul>
-  <hr>
-  <h3> <strong>Work Experience</strong> </h3>
-  <table cellspacing="10">
-    <thead>
-      <tr>
-        <th>Year</th>
-        <th>Work</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2020</td>
-        <td> Timepass </td>
-      </tr>
-      <tr>
-        <td>2021</td>
-        <td> Timepass </td>
-      </tr>
-    </tbody>
-  </table>
-  <hr>
-  <h3>Skills</h3>
-  <table cellspacing="5">
-    <tbody>
-      <tr>
-        <td>C</td>
-        <td>⭐⭐⭐</td>
-        <td>C++</td>
-        <td>⭐⭐</td>
-      </tr>
-      <tr>
-        <td>Java</td>
-        <td>⭐⭐⭐</td>
-        <td>Python</td>
-        <td>⭐⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>SQL</td>
-        <td>⭐⭐⭐⭐</td>
-        <td>HTML</td>
-        <td>⭐⭐</td>
-      </tr>
-      <tr>
-        <td>CSS</td>
-        <td>⭐</td>
-        <td>JavaScript</td>
-        <td>⭐</td>
-      </tr>
-    </tbody>
-  </table>
-  <br>
-  <a href="Hobbies.html">My Hobbies</a><br>
-  <a href="Contact.html">Contact here </a>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.img" alt="Cloud img">
+    <!-- The <div> tag defines a division or a section in an HTML document. -->
+    <h1>I'm Affan.</h1>
+    <h2> <span class="Ma"> Ma</span>chine Learning Engineer </h2>
+    <!-- span tag allows us to select a part of a text in order to format it and its size cannot be changed  -->
+    <img class="bottom-cloud" src="images/cloud.img" alt="Cloud img">
+    <img src="images/mountain.img" alt="mountain img">
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img class="prof" src="images/virtual-reality.img" alt="Profile img">
+      <h2>Hello.</h2>
+      <p> <strong>I am a Web Developer and Machine learning Engineer. I ❤️ sleeping and playing games.</strong></p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="skil" src="images/skillimg1.webp" alt="Skill-1 img">
+        <h3>Coding & Development</h3>
+        <p>I started to code when i was 16 years old because it was fun (it had no ther option to be honest).</p>
+      </div>
+      <div class="skill-row">
+        <img class="skil1" src="images/skillimg2.webp" alt="Skill-2 img" height="42" width="42">
+        <h3> No.1 Bakchod</h3>
+        <p>But my best skill is actually making everyone chutiya.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2  style = margin-top:70px;>Get In Touch</h2>
+      <h3 style = margin:30px;><strong>Chutiya banane se pehle chutiya banna padta hai.</strong></h3>
+      <div class="prank-text">
+        <p><strong>Love doing pranks with others as much i do?</strong></p>
+        <p><strong>Let's talk about how many awesome pranks we can play on our friends!</strong></p>
+      </div>
+      <a class="btn" href="mailto:affansayed36@email.com">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/affan-sayed-357b31227/">LinkedIn</a>
+    <a class="footer-link" href="https://www.snapchat.com/add/not_affansayed?share_id=zqHYctorUPI&locale=en-US">Snapchat</a>
+    <a class="footer-link" href=" https://affansayed7.github.io/cv/">Website</a>
+    <p class="copyright">© Affan Sayed.</p>
+  </div>
+
 </body>
 
 </html>
